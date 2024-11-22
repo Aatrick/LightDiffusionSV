@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Header from './Header.svelte';
+	import { ModeWatcher } from "mode-watcher";
 	import '../app.css';
 
 	let { children } = $props();
@@ -9,12 +10,13 @@
 	<Header />
 
 	<main>
+		<ModeWatcher />
 		{@render children()}
 	</main>
 
 	<footer>
 		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
+			All rights reserved. <a href="https://github.com/Aatrick/LightDiffusion">LightDiffusion.</a> Under GNU General Public License.
 		</p>
 	</footer>
 </div>
