@@ -1,0 +1,14 @@
+<script>
+	import Footer from '$lib/layout/Footer.svelte';
+	import Header from '$lib/layout/Header.svelte';
+	import { ThemeSwitcher } from '$lib/components/ui/theme-switcher';
+	
+</script>
+
+
+<div class="min-h-screen bg-background font-sans antialiased">
+	<div class="mx-auto flex-1 overflow-hidden">
+		<slot></slot>
+	</div>
+	<Footer />
+</div>
