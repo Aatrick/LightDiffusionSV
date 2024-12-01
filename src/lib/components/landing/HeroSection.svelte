@@ -38,11 +38,7 @@
 	<p
 		class="mb-12 -translate-y-4 animate-fade-in text-balance text-lg tracking-tight text-gray-400 opacity-0 [--animation-delay:400ms] md:text-xl"
 	>
-		Beautifully designed, animated components and templates built with
-		<br class="hidden md:block" />
-		{' '}
-		Tailwind CSS, <a href="https://svelte.dev" class="underline underline-offset-2">Svelte</a>, and
-		<a href="https://animation-svelte.vercel.app" class="underline underline-offset-2">Svelte Animations</a>.
+		Retro-engineered to be the simplest, least complex, and most user-friendly.
 	</p>
 	<Button
 		class="-translate-y-4 animate-fade-in gap-1 rounded-lg text-white opacity-0 ease-in-out [--animation-delay:600ms] dark:text-black"
